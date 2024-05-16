@@ -5,9 +5,22 @@
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
 * Explain the purpose of the analysis.
+
+The purpose of this analysis is to be able to predict whether a loan application to a financial institution would become at risk of defaulting based on applicant financial criteria.
+
 * Explain what financial information the data was on, and what you needed to predict.
+
+The data contains information on seven financial aspects of a customer's loan application: Loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derrogatory credit marks, and total debt. 
+
+Based on the data of each loan, the "loan_status" column is marked with a 0, meaning that the loan is healthy, and a 1, meaning that the loan is at high risk of default.f
+
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
+
+I first split the dataset in two, separating the dependent variable "loan_status" from the independent variables in the rest of the dataset.
+
+
+
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
 
 ## Results
